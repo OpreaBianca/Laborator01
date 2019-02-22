@@ -22,9 +22,8 @@ public class MainActivity extends AppCompatActivity {
             TextView greetingTextView = (TextView)findViewById(R.id.greeting_text_view);
             greetingTextView.setAlpha(1);
 
-            String text = "Welcome to the EIM laboratory " + userNameEditText.getText().toString() + "!";
-
             // TODO: exercise 9a
+            String text = "Welcome to the EIM laboratory " + userNameEditText.getText().toString() + "!";
             greetingTextView.setText(text);
             // TODO: exercise 9b
             AlphaAnimation fadeEffect = new AlphaAnimation(1.0f, 0.0f);
